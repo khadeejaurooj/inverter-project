@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/demo-data.json
+*.pem
+*.key
+*.jks
+*.keystore
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# Dependencies and build output
+node_modules/
+build/
+.dart_tool/
+.gradle/
+*.log
+
+# IDE and OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+{
+  "users": [
+    { "id": 1, "username": "demo_admin", "lastname": "Admin", "email": "demo.admin@example.com", "address": "12 Demo Street", "postalCode": "00000", "city": "Demo City", "country": "Demoland", "phone": 5550101, "roles": [{ "name": "ROLE_ADMIN" }] },
+    { "id": 2, "username": "alex_demo", "lastname": "Sample", "email": "alex.demo@example.com", "address": "34 Sample Road", "postalCode": "00001", "city": "Sample Town", "country": "Demoland", "phone": 5550102, "roles": [{ "name": "ROLE_USER" }] },
+    { "id": 3, "username": "sam_test", "lastname": "Tester", "email": "sam.test@example.com", "address": "56 Test Avenue", "postalCode": "00002", "city": "Test City", "country": "Demoland", "phone": 5550103, "roles": [{ "name": "ROLE_USER" }] },
+    { "id": 4, "username": "jo_example", "lastname": "Example", "email": "jo.example@example.com", "address": "78 Example Lane", "postalCode": "00003", "city": "Example Bay", "country": "Demoland", "phone": 5550104, "roles": [{ "name": "ROLE_USER" }] }
+  ],
+  "devices": [
+    { "mac_address": "02:00:00:aa:00:01", "inverter_name": "Rooftop Inverter A", "userId": 2 },
+    { "mac_address": "02:00:00:aa:00:02", "inverter_name": "Garage Inverter", "userId": 3 },
+    { "mac_address": "02:00:00:aa:00:03", "inverter_name": "Farm Inverter", "userId": 4 }
+  ],
+  "inverter": {
+    "mac_address": "02:00:00:aa:00:01",
+    "device_name": "Rooftop Inverter A",
+    "version": "v2.4.1"
+  }
+}

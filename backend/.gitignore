@@ -1,0 +1,8 @@
+# Local configuration and data: never commit these
+.env
+.env.*
+!.env.example
+demo-data.json
+
+node_modules/
+*.log

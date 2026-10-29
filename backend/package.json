@@ -1,0 +1,14 @@
+{
+  "name": "inverter-demo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo backend for the inverter app: the endpoints the Flutter app calls, with fake data.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
